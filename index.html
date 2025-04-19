@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Blog Portfolio</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fdfdfd;
+      color: #2e2e2e;
+    }
+
+    header {
+      background-color: #fff;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+      padding: 1rem 2rem;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header a {
+      font-size: 1.8rem;
+      font-weight: bold;
+      text-decoration: none;
+      color: #444;
+    }
+
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      font-size: 1rem;
+      color: #666;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ff6347;
+    }
+
+    .hero {
+      background: linear-gradient(to right, #fefcea, #f1da36);
+      text-align: center;
+      padding: 5rem 1rem;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      color: #333;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      color: #555;
+      margin-top: 1rem;
+    }
+
+    .hero a {
+      display: inline-block;
+      background-color: #ff6347;
+      color: white;
+      padding: 0.75rem 2rem;
+      margin-top: 2rem;
+      border-radius: 25px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .hero a:hover {
+      background-color: #e44e2b;
+    }
+
+    section {
+      padding: 3rem 1rem;
+      text-align: center;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .about p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+    }
+
+    .projects h2,
+    .contact h2 {
+      margin-bottom: 2rem;
+    }
+
+    .project-card {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+      margin-bottom: 2rem;
+      overflow: hidden;
+      text-align: left;
+    }
+
+    .project-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .project-card .content {
+      padding: 1.5rem;
+    }
+
+    .project-card h3 {
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .project-card p {
+      color: #666;
+    }
+
+    .contact-form {
+      margin-top: 2rem;
+      text-align: left;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 1rem;
+    }
+
+    .contact-form button {
+      width: 100%;
+      padding: 12px;
+      background-color: #ff6347;
+      border: none;
+      color: #fff;
+      font-size: 1rem;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .contact-form button:hover {
+      background-color: #e44e2b;
+    }
+
+    footer {
+      background-color: #222;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .contact i {
+      margin: 0 10px;
+      font-size: 1.5rem;
+      color: #666;
+      transition: color 0.3s;
+    }
+
+    .contact i:hover {
+      color: #ff6347;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="#">My Blog</a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Blog Posts</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Hello, I'm Anshika</h1>
+    <p>Sharing my thoughts, projects & tech musings.</p>
+    <a href="#projects">Explore My Posts</a>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>Welcome to my blog! I'm a developer and tech enthusiast who loves sharing ideas, writing about software, and documenting my journey in tech. This blog is a space for insights, tutorials, and reflections.</p>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Recent Blog Posts</h2>
+    <div class="project-card">
+      <img src="xTWcfZFzMNs4V3V7T9uToP-1200-80.jpg" alt="Blog Post 1">
+      <div class="content">
+        <h3>how ai tools are changing the way beginners learn to code</h3>
+        <p>Nowadays AI tools have made learning coding quite easy. If we look at the earlier times, learning coding was quite difficult and now has become very easy. Today, people can learn coding without any problem. With the help of AI we can learn coding in our own way which we understand well and a way in which we are able to implement it, if we get stuck somewhere then AI will guide us step by step, in fact if we ask AI to point out the mistakes in our code and modify it, it will do it hassle-free, this means we can customize our AI in our own way in whichever way we want it to work for us. Whenever we think on which topic to make a project, then the first thing that comes to our mind is AI and we take suggestions from it on which topic would be relevant to make the project. Nowadays AI has become like a personal mentor for the beginners. If I write to ChatGpt or any AI platform that this topic is quite complex and I want to understand it in an easy way then it will make sure to explain it with examples and will keep on explaining till I don't understand it, using different methods. Explaining by using real life scenarios and examples so that you understand well and you get interested in learning more about it. AI can help you to learn any language, for example if you say "what are loops" it will tell you about the types of the implementation and everything about that topic. What it all takes is just a smart way to make the most out of these AI tools and then you rock. The best thing about AI is that it is available to you 24/7. No matter what time it is, it will always solve your problems by providing ample solutions and letting you choose one of them. It gives the flexibility to choose and think in a way that helps you arrive to a conclusion and it will be completely customized the way you want it to be. If you have been using any AI platform for a long time and it knows about you then it can store your information and give it to you whenever you want (i.e. for some resume help). If after understanding a topic, I ask AI to give me practice questions based on that, it will generate questions as well. If I tell AI to strengthen my logic building and guide me, it will guide me step by step in the best ways. Overall, we understood that if we treat AI like a smart assistant, it can be the best mentor for us.
+.</p>
+      </div>
+    </div>
+    <div class="project-card">
+      <img src="1720176294877.png" alt="Blog Post 2">
+      <div class="content">
+        <h3>will AI replace coders!?</h3>
+        <p>A Whoever you see these days has only one question in their mind – will AI replace coders?. Be it students or teachers or software engineers, will the need for coders really end? In this blog, we will know whether AI is taking the jobs of coders or making their life easy. AI is just an assistant which works on our instructions and is effective only till the time humans use it correctly. In programming, just writing the syntax is not enough. Along with that syntax, logic building and creative thinking are also very important. AI will only give what it is told to do, it will not brainstorm on its own. It can only help us in working on a broad level but cannot take over the whole place. The Most important thing, AI is also not 100% accurate. Human verification is necessary. So overall, whatever coders use AI correctly, their productivity and demand both is likely to increase in future rather than replacement. 
+          AI only works on the basis of given datasets but when it comes to coding some real life scenarios, only humans can do it on the basis of their understanding.
+          AI tools have been trained to write just code but they cannot make decisions.
+          So the future says AI+humans not AI Vs Humans
+          .</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Have feedback or want to collaborate? Reach out!</p>
+    <div>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      <a href="#"><i class="fab fa-github"></i></a>
+    </div>
+
+    <form class="contact-form">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" placeholder="Your Name" required />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="Your Email" required />
+
+      <label for="message">Message</label>
+      <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 AnshikaBlogs. Built with love and coffee ☕</p>
+  </footer>
+
+</body>
+</html>
